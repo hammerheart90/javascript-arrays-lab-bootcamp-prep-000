@@ -41,6 +41,6 @@ return moreKittens
 
 function removeLastKitten(name) {
 var moreKittens = kittens.slice(name);
-kittens.pop(name)
-return kittens
+moreKittens.pop(name)
+return moreKittens
 }
