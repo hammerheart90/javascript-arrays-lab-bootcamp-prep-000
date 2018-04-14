@@ -12,7 +12,7 @@ return kittens
 }
 
 function destructivelyRemoveFirstKitten(name) {
-kittens.pop(name)
+kittens.shift(name)
 return kittens
 }
 
