@@ -6,7 +6,7 @@ kittens.push('Ralph')
 }
 
 function destructivelyPrependKitten(array, element) {
-kittens.unshift(element)
+kittens.unshift(Bob)
 }
 
 function destructivelyRemoveLastKitten() {
