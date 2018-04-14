@@ -1,16 +1,16 @@
 const app = "I don't do much."
 var kittens = ['Milo', 'Otis', 'Garfield']
 
-function destructivelyAppendKitten() {
+function destructivelyAppendKitten(name) {
 kittens.push()
 }
 
 function destructivelyPrependKitten(name) {
-kittens.unshift(Bob)
+kittens.unshift()
 }
 
-function destructivelyRemoveLastKitten() {
-kittens.pop('Ralph')
+function destructivelyRemoveLastKitten(name) {
+kittens.pop()
 }
 
 function appendKitten(name){
