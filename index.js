@@ -32,3 +32,15 @@ var moreKittens = kittens.slice(name);
 moreKittens.unshift(name)
   return moreKittens
 }
+
+function removeFirstKitten(name) {
+var moreKittens = kittens.slice(name);
+moreKittens.shift(name)
+return moreKittens
+}
+
+function removeLastKitten(name) {
+var moreKittens = kittens.slice(name);
+kittens.pop(name)
+return kittens
+}
