@@ -13,7 +13,7 @@ function destructivelyRemoveLastKitten() {
 kittens.pop('Ralph')
 }
 
-function appendKitten(name)
+function appendKitten(name){
 var newArray = kittens.slice();
   return newArray
 }
