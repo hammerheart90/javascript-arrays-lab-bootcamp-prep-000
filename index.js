@@ -6,5 +6,9 @@ kittens.push('Ralph')
 }
 
 function destructivelyPrependKitten() {
+kittens.unshift('Ralph')
+}
+
+function destructivelyRemoveLastKitten() {
 kittens.pop('Ralph')
 }
