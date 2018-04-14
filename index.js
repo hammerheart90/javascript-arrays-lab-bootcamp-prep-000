@@ -26,3 +26,9 @@ var moreKittens = kittens.slice(name);
 moreKittens.push(name)
   return moreKittens
 }
+
+function prependKitten(name){
+var moreKittens = kittens.slice(name);
+moreKittens.push(name)
+  return moreKittens
+}
