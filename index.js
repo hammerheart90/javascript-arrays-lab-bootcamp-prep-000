@@ -23,5 +23,6 @@ return kittens
 
 function appendKitten(name){
 var moreKittens = kittens.slice(name);
+moreKittens.push(name)
   return moreKittens
 }
