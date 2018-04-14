@@ -3,17 +3,20 @@ var kittens = ['Milo', 'Otis', 'Garfield']
 
 function destructivelyAppendKitten(name) {
 kittens.push()
+return kittens
 }
 
 function destructivelyPrependKitten(name) {
 kittens.unshift()
+return kittens
 }
 
 function destructivelyRemoveLastKitten(name) {
 kittens.pop()
+return kittens
 }
 
 function appendKitten(name){
-var newArray = kittens.slice();
-  return newArray
+var moreKittens = kittens.slice();
+  return moreKittens
 }
